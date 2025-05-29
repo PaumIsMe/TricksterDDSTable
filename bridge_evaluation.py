@@ -44,7 +44,7 @@ def card_list_to_pbn(all_hands):
     #print(south_hand)
     #print(west_hand)
 
-    return f"E:{north_hand} {east_hand} {south_hand} {west_hand}"
+    return f"N:{north_hand} {east_hand} {south_hand} {west_hand}"
 
 def print_table(PBN):
     all = ddstable.get_ddstable(PBN)
